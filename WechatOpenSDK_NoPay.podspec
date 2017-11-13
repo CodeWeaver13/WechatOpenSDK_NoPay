@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
 
 
   s.requires_arc = false
-  s.source_files = "OpenSDK1.8.0/*.{h}"
-  s.vendored_libraries = "OpenSDK1.8.0/*.a"
+  #s.source_files = "OpenSDK1.8.0/*.{h}"
+  #s.vendored_libraries = "OpenSDK1.8.0/*.a"
   s.frameworks = "SystemConfiguration", "Security", "CoreTelephony", "CFNetwork", "UIKit"
   s.libraries = "z", "sqlite3.0", "c++"
 end
